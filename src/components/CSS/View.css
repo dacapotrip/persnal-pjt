@@ -1,0 +1,37 @@
+.viewcontainer {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 120px;
+    color: white;
+}
+
+.postinfo {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    color: white;
+}
+
+.postinfo p {
+    margin: 0;
+    padding: 0 15px; 
+}
+
+.content {
+    width: 100%; 
+    min-height: 160px;
+    padding: 25px 0;
+    white-space: pre-wrap; 
+    color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.likebutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
